@@ -15,9 +15,8 @@ const caveat = Caveat({
   display: "swap",
 });
 
-// move this file to src/fonts/SpecialElite-Regular.ttf if you want
 const specialElite = localFont({
-  src: "./fonts/SpecialElite-Regular.ttf",
+  src: "../fonts/SpecialElite-Regular.ttf",
   variable: "--font-special-elite",
   display: "swap",
 });
