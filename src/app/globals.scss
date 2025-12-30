@@ -4,4 +4,16 @@
   --font-type: var(--font-special-elite);
 }
 
-body { font-family: var(--font-sans); }
+html, body {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  overflow: hidden;
+  font-family: var(--font-sans); 
+}
+
+#__next {
+  height: 100%;
+}
